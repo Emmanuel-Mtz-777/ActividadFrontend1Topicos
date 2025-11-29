@@ -1,8 +1,8 @@
-const BASE_API_URL= import.meta.env.VITE_BASE_URL || 'http://localhost:3000/';
+const BASE_API_URL= 'http://localhost:3000/';
 
 export async function getTasks() {
     try {
-        const res = await fetch(`${BASE_URL}`, {
+        const res = await fetch(`${BASE_API_URL}`, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json'
