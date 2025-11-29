@@ -1,0 +1,14 @@
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "title": "New Task",
+    "content": "This is a new task created via REST API.",
+    "status": "pendiente"
+}   
+
+###
+DELETE http://localhost:3000/692a75dcbf84c5863ed00648
